@@ -1,0 +1,381 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto+Condensed:ital,wght@0,400;0,700;1,400&family=Titillium+Web:wght@200;400;600&display=swap');
+/* css reset */
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+header {
+    background-color: #000000;
+    height: 80px;
+}
+
+/* .container-grid {
+    width: 1200px;
+    margin: 0 auto;
+
+} */
+
+.cabecalho {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 100%;
+}
+
+.menu {
+    width: 650px;
+    display: flex;
+    justify-content: space-between;
+
+}
+
+.menu a {
+    color: white;
+    text-decoration: none;
+    font-size: 20px;
+    text-transform: uppercase;
+    font-family: "Roboto";
+}
+
+#barras {
+    display: none;
+}
+
+.logo {
+    width: 300px;
+}
+
+.icone-menu {
+    height: 40px;
+}
+
+.banner {
+    background-image: url(../img/Banner.png);
+    height: 572px;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.posicionamento-banner {
+    height: 100%;
+
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+}
+
+.conteudo-banner {
+    width: 565px;
+    height: 170px;
+
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-between;
+
+    color: white;
+}
+
+.conteudo-banner a {
+    padding: 10px;
+
+    color: white;
+    background-color: #090D7C;
+    border-radius: 5px;
+
+    font-family: "Roboto";
+    font-size: 24;
+    font-weight: bold;
+    text-transform: uppercase;
+    text-decoration: none;
+    
+}
+
+.conteudo-banner h1 {
+    font-family: "Roboto";
+    font-weight: bold;
+    font-size: 50px;
+
+}
+.conteudo-banner p {
+    font-family: "Roboto";
+    font-size: 24px;
+}
+
+main {
+    height: 1350px;
+}
+
+.lancamentos {
+    height: 350px;
+    background-image: linear-gradient(to bottom, #070707, #3e3e3e, #797878, #b9b8b8, #fdfdfc);
+
+}
+
+.lancamentos-titulo {
+    font-family: "Roboto";
+    font-weight: bold;
+    font-size: 25px;
+    text-align: center;
+    justify-content: center;
+    color: white;
+    height: 15%;
+}
+  
+.galeria {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    gap: 2vw;
+    padding: 0 1vw;
+}  
+
+
+.galeria-items {
+    width: 250px;
+    height: 250px;
+    border: 2px solid #fdfbfc;
+    box-shadow: 2px 2px 2px;
+    flex-grow: 1;
+    text-align: center;
+    font-family: "Roboto";
+    font-weight: bold;
+    color: white;
+       
+}
+
+.galeria-items:hover {
+    transform: scale(1.2);
+    filter: grayscale(100%);
+}
+
+
+.galeria-items img {
+    height: 90%;
+    object-fit: cover;
+    
+  
+}
+
+.jogos {
+    height: 100px;
+
+    background-color: black;
+}
+
+.posicionamento-jogos {
+    height: 100%;
+
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+
+}
+
+.posicionamento-jogos img {
+    height: 70px;
+       
+}
+
+.campeonatos {
+    height: 300px;
+    background-image: linear-gradient(to bottom, #fdfbfc, #e7e5e7, #d2d0d2, #bcbbbe, #a7a7aa, #929295, #7d7d80, #69696c, #505052, #383839, #222122, #090909);
+}
+
+.campeonatos-proximos {
+    height: 100%;
+
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.campeonatos-proximos h2 {
+    font-family: "Roboto";
+    font-weight: bold;
+    font-size: 20px;
+    color: white;
+}
+
+.campeonatos-proximos img {
+    height: 250px; 
+}
+
+footer {
+    background-color: #000000;
+    height: 220px;    
+
+}
+
+.roda-pe {
+    height: 220px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    border-top-style: solid;
+    border-bottom: solid;
+    border-color: rgb(255, 255, 255);
+    
+
+}
+
+.roda-pe a {
+    color: white;
+    text-decoration: none;
+    font-size: 16px;
+    font-family: "Roboto";
+    font-weight: normal;
+    
+}
+
+.conteudo-pagamento {
+    height: 220px;
+    
+}
+
+.conteudo-pagamento h5 {
+    font-family: "Roboto";
+    font-weight: bold;
+    padding-top: 10px;
+    
+    color: white;
+    
+}
+
+.conteudo-pagamento img {
+    width: 60px;
+}
+
+.conteudo-informacoes {
+    height: 220px;
+    display: flex;
+    flex-direction: column;
+    
+}
+
+.conteudo-informacoes h5 {
+    font-family: "Roboto";
+    font-weight: bold;
+    padding-top: 10px;
+
+    color: white;
+
+}
+
+.conteudo-atendimento {
+    height: 220px;
+       
+}
+
+.conteudo-atendimento h5 {
+    font-family: "Roboto";
+    font-weight: bold;
+    padding-top: 10px;
+    
+    color: white;
+    
+}
+
+.conteudo-atendimento ul {
+    font-family: "Roboto";
+    font-weight: bold;
+    font-size: 16px;
+    list-style: none;
+    
+    color: white;
+    
+}
+.conteudo-atendimento img {
+    width: 20px;
+}
+
+.midia-social {
+    height: 220px;
+
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    padding-bottom: 10px;
+}
+
+.formulario p {
+    font-family: "Roboto";
+    font-weight: bold;
+    font-size: 16px;
+    padding-top: 10px;
+    
+    color: white;
+}
+
+.button {
+    background-color: blue;
+    border: none;
+    text-align: center;
+    text-decoration: dotted;
+    color: white;
+    font-size: 16px;
+    cursor: pointer;
+    padding: 6px 15px;
+    border-radius: 10px;
+}
+
+.midia-social h5{
+    font-family: "Roboto";
+    font-weight: bold;
+    padding-top: 10px;
+    
+    color: white;
+}
+
+.midia-social img {
+    height: 40px;
+}
+
+.roda-pe1 {
+    display: flex;
+    justify-content: space-between; 
+    align-items: center;
+
+}
+
+.roda-pe1 h6 {
+    font-family: "Roboto";
+    font-weight: bold;
+    padding-top: 10px;
+    
+    
+    color: white;
+}
+
+.roda-pe1 img {
+    width: 160px;
+}
+
+@media screen and (max-width: 1100px) {
+   .cabecalho {
+       position: relative;
+      
+   }
+   
+    .menu {
+        display: none;
+        position: absolute;
+        top: 80px;
+        right: 0px;
+        justify-content: space-around;
+        height: 300px;
+        flex-direction: column;
+
+        background-color: #1e1c21;
+        align-items: center;
+    }
+
+    .menu-ativo {
+        display: flex;
+    }
+
+    #barras {
+        display: inline-block;
+    }
+}
